@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Header Background",
+        "value": "#0f0f0f",
+        "type": "color"
+    },
+    {
+        "name": "Footer Background",
+        "value": "#aaaaaa",
+        "type": "color"
+    },
+    {
+        "name": "Header Text Color",
+        "value": "#eeeeee",
+        "type": "color"
+    },
+    {
+        "name": "Title",
+        "value": "Nome do Site",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "CNPJ",
+        "value": "00.000.000/0000-00",
+        "type": "string",
+        "regex": "[0-9]{3}[0-9]{3}[0-9]{3}-[0-9]{2}",
+        "required": true
+    },
+    {
+        "name": "Sites Count",
+        "value": 42,
+        "type": "number",
+        "required": false
+    },
+    {
+        "name": "Domains Count",
+        "value": 17,
+        "type": "number",
+        "required": false
+    },
+    {
+        "name": "Show Services",
+        "value": true,
+        "type": "boolean",
+        "required": true
+    },
+    {
+        "name": "Services",
+        "value": [
+            "Pagina Inicial",
+            "Sobre",
+            "Contatos"
+        ],
+        "type": "array",
+        "required": true
+    },
+    {
+        "name": "E-mail",
+        "value": "name@server.com",
+        "type": "email"
+    },
+    {
+        "name": "Phone Number",
+        "value": "+55 (11) 91234-1234",
+        "type": "tel"
+    },
+    {
+        "name": "Foundation Date",
+        "value": "2000-01-01",
+        "type": "date"
+    },
+    {
+        "name": "Support Start",
+        "value": "06:00",
+        "type": "time"
+    },
+    {
+        "name": "Support End",
+        "value": "20:00",
+        "type": "time"
+    },
+    {
+        "name": "Url",
+        "value": "https://www.google.com",
+        "type": "url"
+    }
+]

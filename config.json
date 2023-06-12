@@ -1,4 +1,6 @@
 {
-    "name": "Template",
-    "image": ""
+    "name": "Variables Template",
+    "image": "",
+    "version": "1.0",
+    "lumino-version": "3.6"
 }
